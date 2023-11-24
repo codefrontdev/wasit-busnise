@@ -1,0 +1,16 @@
+.contact-use {
+    background-color: var(--light-blue-color);
+}
+
+.contact-use .container {
+    gap: 30px;
+}
+
+
+@media screen and (max-width: 1198px) {
+    .contact-use .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

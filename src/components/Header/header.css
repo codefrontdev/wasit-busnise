@@ -1,0 +1,198 @@
+.header {
+  position: relative;
+  width: 98%;
+  height: calc(100vh - 90px);
+  border-top: 1px solid var(--blue-color);
+}
+
+.header .container {
+  height: 100%;
+}
+
+.header-left h3 {
+  font-size: 55px;
+  line-height: 1.5;
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.header-left span {
+  color: var(--orange-color);
+}
+
+.header-left p {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+.header-left input:first-child {
+  width: 50%;
+}
+
+.header-left input:last-child {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.header-left input:last-child:hover {
+  opacity: 0.6;
+}
+
+.header-left input {
+  padding: 13px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.statistics {
+  gap: 40px;
+}
+
+.statistics i {
+  color: var(--orange-color);
+  margin-right: 10px;
+}
+
+.statistics span {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  height: 100%;
+}
+
+.header-exp {
+  position: absolute;
+  top: 250px;
+  padding-top: 40px !important;
+  left: -40px;
+  border-radius: 10px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+.header-exp h4 {
+  font-size: 35px !important;
+  font-weight: bold;
+}
+
+.header-exp p {
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.header-job-done {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  width: 410px;
+  background-color: var(--dark-blue-color);
+}
+
+.header-job-done h4 {
+  color: var(--white-color);
+}
+
+.header-job-done span a,
+.header-job-done span {
+  color: var(--orange-color) !important;
+  font-weight: 500 !important;
+}
+
+.header-job-done p {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+  /* width: 362px; */
+}
+
+.header-right img {
+  width: 100%;
+  height: 100%;
+  border-end-start-radius: 50px;
+}
+
+.header-exp .najma {
+  top: -5px;
+  left: 65px;
+  box-shadow: 4px 9px 50px 30px var(--white-color);
+  background-color: var(--white-color);
+  z-index: 10;
+}
+
+.header-exp .najma span:first-child::before,
+.header-exp .najma span:last-child::before,
+.header-exp .najma span:last-child::after,
+.header-exp .najma span:first-child::after {
+  background-color: var(--white-color);
+}
+
+@media screen and (max-width: 1300px) {
+  .header-left h3 {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .header-exp {
+    top: 180px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    height: max-content;
+  }
+  .header .container {
+    flex-direction: column;
+  }
+  .header-right {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .col-6 {
+    width: 100% !important;
+  }
+
+  .header-exp {
+    top: -15px;
+    left: -10px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header-job-done {
+    bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-job-done {
+    width: 80%;
+  }
+
+  .header-job-done h4 {
+    font-size: 16px;
+  }
+
+  .header-job-done p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .statistics span {
+    font-size: 14px;
+  }
+  .statistics {
+    gap: 20px;
+  }
+}

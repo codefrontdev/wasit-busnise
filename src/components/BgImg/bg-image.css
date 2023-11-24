@@ -1,0 +1,69 @@
+.bg-img {
+    background-image: url('../../assets/images/impressive-business-results.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    height: max-content;
+}
+
+.bg-img-text {
+    padding: 150px 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff6625d9;
+    text-align: center;
+}
+
+.bg-img-text p {
+    width: 80%;
+    font-size: 27px;
+    font-weight: 100;
+    font-family: 'Lora', serif;
+    color: var(--white-color);
+}
+
+.bg-img-text h5 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bg-img-text span {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.bg-img img {
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1398px) {
+    .bg-img-text p {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 1198px) {
+    .bg-img-text p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .bg-img {
+        background-position-y: 0;
+    }
+
+    .bg-img-text p {
+        font-size: 16px;
+    }
+    
+    .bg-img-text h5 {
+        font-size: 20px;
+    }
+    
+    .bg-img-text span {
+        font-size: 16px;
+    }
+}

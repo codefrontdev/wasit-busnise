@@ -1,0 +1,66 @@
+.people {
+  height: fit-content;
+  background-color: var(--light-blue-color);
+}
+
+.people-content-items {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+
+.people-item {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  z-index: 1;
+}
+
+.people-item .content {
+  position: absolute;
+  width: max-content;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--dark-blue-color);
+  padding: 20px 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.people-item .content h3 {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.people-item .content span {
+  color: var(--orange-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.people .najma {
+  top: -70px;
+  left: 90%;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1398px) {
+  .people-item {
+    width: 350px;
+}
+}
+
+@media screen and (max-width: 1198px) {
+    .people-content-items {
+        gap: 100px 20px;
+    }
+    .people-item {
+        width: 400px;
+    }
+    .people .najma {
+        top: -80px;
+      left: 68%;
+    }
+}

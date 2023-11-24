@@ -1,0 +1,132 @@
+.price-covered {
+    width: 98%;
+    background-color: var(--light-blue-color);
+}
+
+.price-covered .title h2 {
+    color: var(--white-color);
+    font-size: 40px;
+}
+
+.price-covered .title h2 span {
+    color: var(--orange-color);
+}
+
+
+.price-covered-card-items {
+    position: relative;
+    flex-wrap: wrap;
+    gap: 60px 0;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.price-covered-card {
+    /* width: 350px; */
+    height: fit-content;
+    max-width: 100%;
+    background-color: var(--dark-blue-color);
+    padding: 47px;
+    border-radius: 15px;
+}
+
+.price-covered-card.pro {
+    position: relative;
+    background-color: var(--orange-color);
+}
+
+.price-covered-card.pro .najma {
+    top: 10px;
+    left: 255px;
+    box-shadow: -24px 20px 50px 40px var(--white-color);
+    background-color: var(--white-color);
+    z-index: 10;
+}
+
+.price-covered-card.pro .najma span:first-child::before,
+.price-covered-card.pro .najma span:last-child::before,
+.price-covered-card.pro .najma span:last-child::after,
+.price-covered-card.pro .najma span:first-child::after {
+    background-color: var(--white-color);
+    width: 80px;
+    height: 5px;
+}
+
+
+.price-covered-card.pro .najma span:first-child::before {
+    left: -39px;
+}
+
+.price-covered-card.pro .najma span:first-child::after {
+    left: 0;
+}
+
+.price-covered-card.pro .najma span:last-child::before,
+.price-covered-card.pro .najma span:last-child::after {
+    left: -41px;
+}
+
+.price-covered-card.pro h5,
+.price-covered-card.pro b,
+.price-covered-card.pro span,
+.price-covered-card.pro p,
+.price-covered-card.pro p i
+{
+    color: var(--white-color);
+}
+
+.price-covered-card.pro a {
+    background-color: var(--white-color);
+    color: var(--orange-color) !important;
+}
+
+.price-covered-card h5 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: var(--white-color);
+}
+
+.price-covered-card .pargh {
+    width: 200px;
+}
+
+.price-covered-price b {
+    display: inline-block;
+    transform: translate(10px, -20px);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.price-covered-price span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--orange-color);
+    font-size: 45px;
+}
+
+.price-covered-card p i {
+    color: var(--orange-color);
+    margin-right: 10px;
+}
+
+.price-covered-card a {
+    display: block;
+    background-color: var(--orange-color);
+    color: var(--white-color) !important;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.price-covered-card a:hover {
+    opacity: 0.6;
+}
+
+.price-covered .najma {
+    top: -85px;
+    left: 96%;
+    z-index: 0;
+}

@@ -1,0 +1,61 @@
+.navbard.active {
+    position: fixed;
+    background-color: var(--blue-color);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.dropdown-menu,
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar img {
+    mix-blend-mode: screen;
+    width: 130px;
+    height: 50px;
+}
+
+.navbar .nav-item {
+    margin: 0 10px;
+    cursor: pointer !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--orange-color) !important;
+} 
+
+.navbar-toggler {
+    background-color: var(--orange-color);
+}
+
+.navbar-collapse {
+    width: 80%;
+}
+
+.navbar-start button {
+    margin-left: 20px;
+}
+
+.navbar-start .start {
+    background-color: var(--orange-color);
+} 
+
+.navbar-start .start:hover {
+    opacity: 0.6;
+} 
+
+.navbar-start .start:hover > a {
+    color: var(--text-color) !important;
+} 
+
+.navbar-start .start a {
+    color: var(--white-color) !important;
+}

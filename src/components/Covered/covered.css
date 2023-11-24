@@ -1,0 +1,85 @@
+.covered {
+  background-color: var(--light-blue-color);
+  width: 98%;
+  padding: 70px 0 !important;
+  margin-top: 30px;
+}
+
+.covered .najma {
+  z-index: 0;
+}
+
+.card-items {
+  gap: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.card-item {
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--dark-blue-color);
+  padding: 40px;
+  width: 412px;
+}
+
+.card-item:hover {
+  background-color: var(--orange-color);
+  transition: 1s;
+}
+
+.card-item h3 {
+  color: var(--white-color);
+  font-size: 19px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.card-item h3 {
+  font-size: 16px;
+}
+
+.btn-more a,
+.btn-more {
+  color: var(--orange-color) !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.card-item:hover > p,
+.card-item:hover > .icon i,
+.card-item:hover > .btn-more a,
+.card-item:hover > .btn-more {
+  transition: 1s;
+  color: var(--white-color) !important;
+}
+
+.icon {
+  padding: 10px 0;
+}
+
+.icon i {
+  font-size: 30px;
+  color: var(--orange-color);
+}
+
+.card-item span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  padding: 8px;
+  background-color: #2a1b47;
+  color: var(--white-color);
+  border-top-left-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-item:hover > span {
+  background-color: var(--white-color);
+  color: var(--orange-color);
+  transition: 1s;
+}
+

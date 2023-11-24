@@ -1,0 +1,14 @@
+.title h2 {
+    font-weight: 100;
+}
+
+
+@media screen and (max-width: 1398px) {
+    .about-title .col-6 {
+        width: fit-content !important;
+    }
+}
+
+
+@media screen and (max-width: 1298px) {
+}
